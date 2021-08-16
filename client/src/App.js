@@ -6,7 +6,7 @@ import MovieList from './Movies/MovieList';
 import Movie from './Movies/Movie';
 
 export default function App () {
-  const [saved, setSaved] = useState([]); // Stretch: the ids of "saved" movies
+  // const [saved, setSaved] = useState([]); // Stretch: the ids of "saved" movies
   const [movieList, setMovieList] = useState([]);
 
   useEffect(() => {
