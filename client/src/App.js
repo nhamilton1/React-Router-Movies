@@ -39,8 +39,6 @@ export default function App () {
       <Route exact path="/">
          <MovieList movies={movieList} />
       </Route>
-
-
     </div>
   );
 }
